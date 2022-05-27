@@ -76,7 +76,7 @@ class Feeds extends Component {
             url: `https://deep-index.moralis.io/api/v2/${this.context.value.cryptoaddress.address}/balance?chain=mumbai`,
             headers: {
                 'accept': 'application/json',
-                'X-API-Key': 'm9N2QaqpjstRatg7qJFFMebq6qrggD1jSpsV0NlnelPOKd4wp3wvGNV5T7xC5kUF'
+                'X-API-Key': 'xxxxxxxxxxxxxxxxxx'
             }
         };
         this.axios(config)
